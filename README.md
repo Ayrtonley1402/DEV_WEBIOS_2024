@@ -2,7 +2,7 @@
 
 ## Ayrton Nascimento
 
-Amei o HTML, já o git tá bugando minha cabeça, até agora não gostei.
+Sou o Ayrton, comecei a fzer curso de Desenvolvvimento Web para ter uma carreira melhor.
 
 ### Meu primeiro código
 
