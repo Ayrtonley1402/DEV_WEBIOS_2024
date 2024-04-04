@@ -1,0 +1,22 @@
+/*Olha o comentário aqui*/
+
+body{
+    background-color:#ff2211;
+    font-family: "Merriweather", serif;
+}
+
+h1{
+    font-size: 90px;
+}
+
+img{
+     width: 1000px;   /*Largura*/
+     height:570px;    /*Altura*/
+}
+
+p{
+    font-size: 2rem;
+}
+
+/* rem - vai olhar para a body*/
+/* em - vai olhar pro pai mais proximo*/
