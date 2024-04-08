@@ -7,15 +7,22 @@ body{
 
 h1{
     font-size: 90px;
+    text-shadow: 4px 4px 3px white;
+    text-align: center;
+    /* horizontal, vertical, sombreamento, cor.*/
 }
 
 img{
-     width: 1000px;   /*Largura*/
-     height:570px;    /*Altura*/
+     width: 80%;   /*Largura*/
+     height:80%;    /*Altura*/
+     box-shadow: 30px 30px 8px maroon;
 }
 
 p{
-    font-size: 2rem;
+    font-size: 2rem;   /*tamanho da fonte*/
+    font-weight:bold;   /*expessura da letra*/
+    line-height: 50px;   /*espaçamento entre as linhas*/
+    text-align: center;  /*deixa o texto no centro da tela*/  
 }
 
 /* rem - vai olhar para a body*/
