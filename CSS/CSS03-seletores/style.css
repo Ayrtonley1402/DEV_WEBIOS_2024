@@ -1,0 +1,31 @@
+/*seletor pai > o que for aplicado dentro dele será 
+aplicado na pagina web inteira, inclusive na tag body*/
+
+*{
+   margin:70px;
+   background-color:darkorchid;
+   
+}
+
+.corVermelha{
+       color:crimson;
+       font-weight: bold;
+       font-size: 50px;
+       text-shadow: 8px 8px 5px burlywood;
+       text-align: center;
+}
+
+.corPreta{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px aqua; 
+}
+
+#Biceps{
+      color:black;
+      font-size: 40px;
+      line-height: 5px;
+      text-shadow: 3px 3px 5px aqua;
+      text-align: end;
+}
