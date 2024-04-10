@@ -1,0 +1,42 @@
+*{
+    margin:4px;
+}
+
+/* border: px outset cor;*/
+
+body{
+    /*
+    background-image: url("https://picsum.photos/id/1058/600/400");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;*/
+    
+}
+
+#Um{
+    border: 5px outset darkblue;
+    border-radius: 12px 2px 70px 8px;
+            /*topo, direita , base, esquerda*/
+}
+
+p{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#Dois{
+    border: 3px outset red;
+    border-radius: 8px 4px 80px 5px;
+}
+
+
+img{
+    border-radius: 20px;
+}
+
+
+
+#ibagem{
+    border: 3px outset blue;
+    border-radius: 10px;
+}
