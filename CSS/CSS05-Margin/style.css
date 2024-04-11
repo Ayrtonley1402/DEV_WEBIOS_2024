@@ -1,0 +1,15 @@
+#sessao{
+    border:1px solid blue;
+    border-radius: 10px 10px 10px 10px;
+    /*padding-top:20px;
+    padding-right:20px;
+    padding-bottom: 20px;
+    padding-left: 20px;*/
+
+    padding: 20px 20px 20px 20px; 
+}
+
+/*em cima:top
+direita: right
+em baixo: botton
+esquerda: left*/'
