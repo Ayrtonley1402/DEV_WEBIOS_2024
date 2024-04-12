@@ -1,5 +1,10 @@
+body{
+    margin-left: 0;
+}
+
+
 #sessao{
-    border:1px solid blue;
+    border:2px solid mediumblue;
     border-radius: 10px 10px 10px 10px;
     /*padding-top:20px;
     padding-right:20px;
@@ -7,9 +12,16 @@
     padding-left: 20px;*/
 
     padding: 20px 20px 20px 20px; 
+    margin-bottom: 60px;
 }
 
 /*em cima:top
 direita: right
 em baixo: botton
-esquerda: left*/'
+esquerda: left*/
+
+#sessao2{
+    border:2px solid tomato;
+    padding: 10px;
+    margin-top: 60px;
+}
