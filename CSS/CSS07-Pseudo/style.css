@@ -1,0 +1,13 @@
+p:last-child{
+    background-color: crimson;
+    color: azure;
+}
+p:first-child{
+    background-color: blueviolet;
+    color:bisque;
+}
+
+p:nth-child(3){
+    background-color: coral;
+    color: cyan;
+}
