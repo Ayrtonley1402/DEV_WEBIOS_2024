@@ -2,14 +2,35 @@ img{
     width: 700px;
 }
 
-/*Quando a largura da tela for de 450px as imagnes terão uma largura de 200px*/
-
-/*Enquanto a largura maxima for de 450px a largura das imagens serão de 200px
+/* Quando a largura da tela for de 450px as imagnes terão uma largura de 200px*/
+/* Enquanto a largura maxima for de 450px a largura das imagens serão de 200px
 min-widht / max-widht*/
-
-@media (max-width:450px) {
-    img{
+@media(max-width:450px) {
+    body{
+        background-color: cadetblue;
+    }
+    img:hover{
         width: 200px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px black;
     }
 }
+
+@media(min-width: 452px){
+      body{
+        background-color: darkblue;
+    }
+      img:hover{
+        width:700px;
+        border: 2px solid gold;
+        box-shadow: 10px 10px 12px wheat;
+        border-radius: 5px 5px 7px 10px;
+    }
+}
+
+    
+
+
+
 
