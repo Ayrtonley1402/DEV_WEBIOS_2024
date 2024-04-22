@@ -1,0 +1,107 @@
+body{
+    background-image: url(download\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-color: #533618;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 20%;
+}
+
+img{
+    float: left;
+    margin: 15px;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    color:#c1c2bc;
+    font-weight: bold;
+    font-family: "Anton", sans-serif;
+}
+
+#card{
+    background-color: #c1c2bc;
+    padding: 15px 20px 30px 20px;
+    line-height: 20px;
+}
+
+button{
+      border-color: #533618;
+      background-color: #c1c2bc;
+      color: #314a20;
+}
+
+button:hover{
+    background-color: #314a20;
+    color: #c1c2bc;
+    border-color: #c1c2bc;
+}
+
+iframe{
+    float: left;
+    margin: 8px;
+}
+
+
+#card2{
+    background-color: #c1c2bc;
+    padding: 15px 15px 30px 15px;
+    line-height: 25px;
+}   
+
+.color{
+    color:#314a20;
+    font-weight: bold;
+}
+
+#card3{
+    background-color: #c1c2bc;
+    padding:20px 20px 25px 15px;
+
+}
+
+#img1{
+    float: left;
+    margin:8px;
+}
+
+#img2{
+    float: right;
+    margin: 8px;
+}
+
+#img3{
+    float: left;
+    margin:8px;
+}
+
+#img4{
+    float: right;
+    margin:8px;
+}
+
+#marrom::first-letter{
+    color: #533618;
+    font-size: 70%;
+}
+
+footer{
+    margin-top:100px;
+    background-color: #c1c2bc;
+    background-size: 10%;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+.a::before{
+    content: "\00A9";
+}
+
+.a::after{
+   content: "Ayrton Nascimento";
+}
