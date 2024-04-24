@@ -1,0 +1,16 @@
+#container{
+    display: grid;
+    /* grid-template-columns: 100px 50px 50px 50px 50px 50px 50px 50px 50px; */
+    grid-template-columns: repeat(9, 50px);
+    /* grid-template-columns: repeat(9, 1fr); */
+}
+
+.itens{
+    border:5px solid paleturquoise;
+    background-color:burlywood;
+}
+
+/* para criar colunas no grid: grid-template-columns
+Para criar linhas: grid-template-rows */
+
+
