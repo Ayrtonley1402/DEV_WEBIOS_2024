@@ -1,4 +1,4 @@
-body{
+ body{
     background-image: url(download\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: 65%;
@@ -23,7 +23,7 @@ h1{
 }
 
 #card{
-    background-color: #c1c2bc;
+    background-color: #c1c2bc;  
     padding: 15px 20px 30px 20px;
     line-height: 20px;
 }

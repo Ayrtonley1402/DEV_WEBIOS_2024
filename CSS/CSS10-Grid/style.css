@@ -1,16 +1,55 @@
-#container{
+/* #container{
     display: grid;
     /* grid-template-columns: 100px 50px 50px 50px 50px 50px 50px 50px 50px; */
-    grid-template-columns: repeat(9, 50px);
+    /* grid-template-columns: repeat(9, 50px);
     /* grid-template-columns: repeat(9, 1fr); */
-}
+/* } */
 
-.itens{
+/* .itens{
     border:5px solid paleturquoise;
     background-color:burlywood;
-}
+}   */
 
 /* para criar colunas no grid: grid-template-columns
 Para criar linhas: grid-template-rows */
+
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(3, 50px); */
+    grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer";
+    column-gap: 10px;
+    row-gap: 40px;
+    /* border: 10px solid wheat; */
+    /* padding: 20px; */
+    /* justify-items: center; Horizontal */
+    /* align-items: center;  /* Vertical*/
+} 
+
+#item-1{
+    grid-area: header;
+}
+
+#item2{
+    grid-area: main;
+}
+
+#item-3{
+    grid-area: sidebar;
+}
+
+#item-4{
+    grid-area: footer;
+}
+
+
+.itens{
+    border: 3px solid black;
+    background-color: rgb(238, 224, 198);
+    /* width: 50%;
+    height: 50%; */
+    text-align: center;
+}
 
 
