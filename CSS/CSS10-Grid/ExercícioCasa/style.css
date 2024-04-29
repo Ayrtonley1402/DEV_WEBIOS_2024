@@ -1,0 +1,52 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "Marley Marley corinthians corinthians" "web web web web" "sonic sonic sonic sonic"
+    ". chaves chaves ." "bob bob bob bob" "theo theo maggie ilha";
+    column-gap: 10px;
+    row-gap: 20px;
+    margin: 20px;
+}
+
+#item-1{
+    grid-area: Marley;
+}
+
+#item-2{
+    grid-area: corinthians;
+}
+
+#item-3{
+     grid-area: web;
+}
+
+#item-4{
+    grid-area: sonic;
+}
+
+#item-5{
+    grid-area: chaves;
+}
+
+#item-6{
+    grid-area: bob;
+}
+
+#item-7{
+    grid-area: theo;
+}
+
+#item-8{
+    grid-area: maggie;
+}
+
+#item-9{
+    grid-area: ilha;
+}
+
+.itens{
+    border: 5px solid purple;
+    background-color:blanchedalmond;
+    text-align: center;
+    border-radius: 8px ;
+}
