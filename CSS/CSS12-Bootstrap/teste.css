@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+
+
+#fundo{
+    background-color: darkblue;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+body{
+    background-color: blue;
+}
+
+#cor{
+    color: red;
+}
+
+#nav1{
+    border: 0px;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.nav{
+    background-color: aqua;
+    padding: 20px 40px 20px 40px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+}
