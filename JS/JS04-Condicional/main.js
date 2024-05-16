@@ -20,7 +20,7 @@ numero1 > numero2 ? console.log("Número1 é maior") :console.log("Número2 é m
 //     console.log("numero1 é menor que numero2")
 // }
 
-var mes = "marco"
+var mes = "Junho"
 
 if(mes == "JANEIRO"){
     console.log("É verão")
