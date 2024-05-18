@@ -13,5 +13,5 @@ var contador = 0
 // }while(contador < 10)
 
 for(var contador = 10; contador < 10; contador++){
-      console.log(contador + " é menor que o 10 manin ")
+      console.log(contador + " é menor que o 10 manin, ")
 }
