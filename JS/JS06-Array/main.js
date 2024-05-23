@@ -60,21 +60,20 @@ console.log("O nome retirado: " + mudanca4)
 var mudanca5 = utilizapop.push("Saraiva")//coloca um nome a mais
 console.log(mudanca5)
 console.log(utilizapop)
-console.clear()
+
 
 var nomes = ["Audi", "Celta", "Uno", "Mercedez", "HB20"]
 console.log(nomes)
 var mudanca6 = nomes.shift()
 console.log(mudanca6)
 console.log(nomes)
-console.clear()
+
 
 var inicio = [true, 34, "Mano", "Sou lindo", "JS"]
 console.log(inicio)
 var mudanca7 = inicio.unshift("Mh bbzinha é tolinha")
 console.log(mudanca7)
 console.log(inicio)
-console.clear()
 
 delete inicio[2]
 console.log(inicio)
