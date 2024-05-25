@@ -13,3 +13,4 @@ if (tabuadaDoDois) {
     console.log("Tabuada do 3:");
     calcularTabuada(3);
 }
+
