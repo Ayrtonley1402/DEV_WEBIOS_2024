@@ -1,8 +1,8 @@
 // getElementByid
 // innerText > troca o texto
-let primeiroTitulo = document.getElementById("primeiroTitulo")
-primeiroTitulo.style.color = 'red'
-primeiroTitulo.innerText = 'Amo Jesus'
+let primeiroTítulo = document.getElementById("primeiroTitulo")
+primeiroTítulo.style.color = 'red'
+primeiroTítulo.innerText = 'Amo Jesus'
 
 let pegaClasse = document.getElementsByClassName("getClass")
 
