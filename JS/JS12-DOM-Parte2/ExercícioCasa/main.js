@@ -1,12 +1,12 @@
 // Primero Botão
 const criaImagem = () =>{
-    alert('The Umbrella Academy')
     document.body.style.backgroundColor = "#262525"
-    let imagem = document.createElement = ('img')
-    img.src = "https://img.odcdn.com.br/wp-content/uploads/2024/02/The-Umbrela-Academy-1.jpg"
-    body.appendChild(imagem)
+    let imgs = document.createElement("img") ;
+    imgs.src = '/JS/JS12-DOM-Parte2/ExercícioCasa/download (6).jpg'
+    document.body.appendChild(imgs)
 }
 
+// Segundo Botão
 const criaNome = () =>{
     let nome = prompt('Informe seu nome abaixo')
 if(nome){
@@ -18,6 +18,7 @@ if(nome){
 }
 }
 
+// Terceiro Botão
 const criaTabuada = () =>{
     let numero  = prompt('Digite um número')
 numero = Number(numero)
